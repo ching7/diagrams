@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2021-01-06T06:23:10.999Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36 Edg/87.0.664.66" etag="rN9Mws_Rkm0eYycYfENX" version="14.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-06T06:24:45.117Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36 Edg/87.0.664.66" etag="-QHgz8K7asA0RUZPF7IB" version="14.0.0" type="github">
   <diagram id="9LKX-si_4yWUbHkZIEd7" name="第 1 页">
-    <mxGraphModel dx="833" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="690" pageHeight="980" math="0" shadow="0">
+    <mxGraphModel dx="1000" dy="693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="690" pageHeight="980" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="WEqB35Hxpz7HUWLLkqiR-4" value="BPS、AMS&lt;br&gt;DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="85" y="310" width="70" height="90" as="geometry" />
+          <mxGeometry x="55" y="310" width="70" height="90" as="geometry" />
         </mxCell>
         <mxCell id="WEqB35Hxpz7HUWLLkqiR-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WEqB35Hxpz7HUWLLkqiR-6" target="WEqB35Hxpz7HUWLLkqiR-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WEqB35Hxpz7HUWLLkqiR-28" value="抽样模板" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WEqB35Hxpz7HUWLLkqiR-9">
+        <mxCell id="WEqB35Hxpz7HUWLLkqiR-28" value="根据抽样模板&lt;br&gt;生成抽样编号" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WEqB35Hxpz7HUWLLkqiR-9">
           <mxGeometry x="-0.1333" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -18,21 +18,21 @@
         <mxCell id="WEqB35Hxpz7HUWLLkqiR-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WEqB35Hxpz7HUWLLkqiR-6" target="WEqB35Hxpz7HUWLLkqiR-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WEqB35Hxpz7HUWLLkqiR-29" value="自动派单&lt;br&gt;手动分配" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WEqB35Hxpz7HUWLLkqiR-14">
-          <mxGeometry x="-0.1037" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="WEqB35Hxpz7HUWLLkqiR-6" value="质检抽样" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="160" width="100" height="50" as="geometry" />
+          <mxGeometry x="40" y="160" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="WEqB35Hxpz7HUWLLkqiR-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WEqB35Hxpz7HUWLLkqiR-11" target="WEqB35Hxpz7HUWLLkqiR-24">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="420" y="185" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="WEqB35Hxpz7HUWLLkqiR-190" value="自动派单&lt;br&gt;手动分配" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WEqB35Hxpz7HUWLLkqiR-18">
+          <mxGeometry x="-0.1583" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="WEqB35Hxpz7HUWLLkqiR-11" value="任务分配" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="160" width="100" height="50" as="geometry" />
+          <mxGeometry x="200" y="160" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="WEqB35Hxpz7HUWLLkqiR-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WEqB35Hxpz7HUWLLkqiR-24">
           <mxGeometry relative="1" as="geometry">
